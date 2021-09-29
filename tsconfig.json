@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "noImplicitUseStrict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "target": "ES2018",
+        "module": "commonjs",
+        "rootDir": "src",
+        "outDir": "dist",
+    }
+}
