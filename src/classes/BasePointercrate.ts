@@ -1,4 +1,3 @@
-import fetch = require("node-fetch");
 import { ResponseBody } from "../interfaces/misc";
 import { SendRequestOptions } from "../types/options";
 
@@ -48,7 +47,7 @@ class BasePointercrate {
             init.body = options.body;
         }
 
-        let response = await fetch.default(url, init);
+        let response = await fetch(url, init);
 
         let body: any;
         if ((await response.text()).length > 0)
